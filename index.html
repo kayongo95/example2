@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>KN</h1>
+        <p>Kayongo Nicholas</p>
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li id="btn" onclick="toggleMenu()">
+            <a href="#">
+              Services
+              <i class="bx bxs-chevron-down"></i>
+            </a>
+
+            <ul id="dropdown">
+              <li><a href="#">Service 1</a></li>
+              <li><a href="#">Service 2</a></li>
+              <li><a href="#">Service 3</a></li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="search">
+        <input type="text" placeholder="Search..." />
+        <button type="submit"><i class="bx bx-search"></i></button>
+      </div>
+    </header>
+  </body>
+</html>
